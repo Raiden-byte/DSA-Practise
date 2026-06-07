@@ -71,3 +71,26 @@ int main()
 
     return 0;
 }
+
+/*
+Notes:
+
+First Occurrence:
+Found target -> Save answer -> Go Left
+
+Last Occurrence:
+Found target -> Save answer -> Go Right
+
+Follow-up:
+Count Occurrences
+
+Formula:
+count = last - first + 1
+
+Edge Case:
+if(first == -1)
+    return 0;
+
+Time Complexity:
+O(log N)
+*/
