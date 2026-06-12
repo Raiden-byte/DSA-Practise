@@ -49,9 +49,9 @@ int main()
 
     vector<int> result = mergeSortedArrays(arr1, n1, arr2, n2);
 
-    for(int num : result)
+    for(int i=0; i<result.size(); i++)
     {
-        cout << num << " ";
+        cout << result[i] << " ";
     }
 
     return 0;
